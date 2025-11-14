@@ -105,11 +105,11 @@ Dashboard displays:
 
 ## 🛠️ Troubleshooting
 
-Issue	Cause	Solution
+`Issue`	→ `Cause`	→ `Solution`
 
-Dashboard empty	No clients	Ensure client nodes are powered
-Cloud not updating	No internet	Connect Host to router
-Client cannot join AP	AP limit exceeded	Increase max STA connections
+- Dashboard empty	→ No clients → 	Ensure client nodes are powered
+- Cloud not updating → 	No internet 	→ Connect Host to router
+- Client cannot join AP	→ AP limit exceeded → Increase max STA connections
 
 ## 📄 License
 Free for academic and research purposes.
