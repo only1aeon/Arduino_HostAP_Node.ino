@@ -2,32 +2,18 @@
 
 # 🚀 Overview
 
-The Host Node is the central controller in the smart waste monitoring system. It:
+The `Host Node` is the central controller in the smart waste monitoring system. It:
 
-Creates a Wi-Fi Access Point
+- Creates a Wi-Fi Access Point
+- Receives bin data from all Client Nodes
+- Hosts a real-time Local Dashboard
 
-Receives bin data from all Client Nodes
-
-Hosts a real-time Local Dashboard
-
-📌 Features
-
-🛜 ESP32 Soft-AP mode (independent Wi-Fi network)
-
-🌐 Local dashboard at http://192.168.4.1
-
-📥 REST API for receiving bin data
-
-☁️ Cloud mirroring:
-
-Blynk Virtual Pins
-
-ThingSpeak Channels
-
-
-✔️ Supports multiple client nodes
-
-📊 Route suggestion logic
+## 📌 Features
+- 🛜 ESP32 Soft-AP mode (independent Wi-Fi network)
+- 🌐 Local dashboard at http://192.168.4.1
+- 📥 REST API for receiving bin data
+- ✔️ Supports multiple client nodes
+- 📊 Route suggestion logic
 
 🔧 Modular and easily expandable
 
