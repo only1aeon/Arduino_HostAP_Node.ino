@@ -97,10 +97,6 @@ Dashboard displays:
 
       ↓
 
-`[Push to Blynk + ThingSpeak]`
-
-      ↓
-
 `[Loop]`
 
 ## 🛠️ Troubleshooting
