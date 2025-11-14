@@ -14,34 +14,37 @@ The `Host Node` is the central controller in the smart waste monitoring system. 
 - 📥 REST API for receiving bin data
 - ✔️ Supports multiple client nodes
 - 📊 Route suggestion logic
+- 🔧 Modular and easily expandable
 
-🔧 Modular and easily expandable
-
-⚙️ Configuration
-
+## ⚙️ Configuration
 Update these in the firmware:
 
 Wi-Fi Access Point
 
-const char* ap_ssid = "SmartBinHost";
-const char* ap_password = "12345678";
+`const char* ap_ssid = "SmartBinHost";`
 
-🧩 API Endpoint
+`const char* ap_password = "12345678";`
+
+## 🧩 API Endpoint
 
 POST → /update-bin
 
 Client sends JSON:
 
-{
-  "node_id": 2,
-  "distance": 15.7,
-  "fill_level": 83
-}
+`{`
+
+  `"node_id": 2,`
+
+  `"distance": 15.7,`
+
+  `"fill_level": 83`
+
+`}`
 
 
 ---
 
-🖥️ Local Dashboard
+## 🖥️ Local Dashboard
 
 Access via:
 
