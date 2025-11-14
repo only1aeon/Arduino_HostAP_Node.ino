@@ -60,48 +60,50 @@ Dashboard displays:
 2. Connect laptop/phone to:
 
 `SSID: SmartBinHost`
+
 `Password: 12345678`
 
-3. Open browser → visit:
-
-
-
-http://192.168.4.1
-
+3. Open browser → visit: http://192.168.4.1
 4. Power Client node(s)
-
-
 5. Watch dashboard update in real time
 
+## 🔁 Host Node Workflow
 
+`[Power On]`
 
+      ↓
 
----
+`[Start Wi-Fi Access Point]`
 
-🔁 Host Node Workflow
+      ↓
 
-[Power On]
-      ↓
-[Start Wi-Fi Access Point]
-      ↓
-[Start HTTP Server]
-      ↓
-[Listen for POST /update-bin]
-      ↓
-[Parse JSON]
-      ↓
-[Save Bin Data]
-      ↓
-[Update Local Dashboard]
-      ↓
-[Push to Blynk + ThingSpeak]
-      ↓
-[Loop]
+`[Start HTTP Server]`
 
+      ↓
 
----
+`[Listen for POST /update-bin]`
 
-🛠️ Troubleshooting
+      ↓
+
+`[Parse JSON]`
+
+      ↓
+
+`[Save Bin Data]`
+
+      ↓
+
+`[Update Local Dashboard]`
+
+      ↓
+
+`[Push to Blynk + ThingSpeak]`
+
+      ↓
+
+`[Loop]`
+
+## 🛠️ Troubleshooting
 
 Issue	Cause	Solution
 
@@ -109,10 +111,5 @@ Dashboard empty	No clients	Ensure client nodes are powered
 Cloud not updating	No internet	Connect Host to router
 Client cannot join AP	AP limit exceeded	Increase max STA connections
 
-
-
----
-
-📄 License
-
+## 📄 License
 Free for academic and research purposes.
