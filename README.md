@@ -27,7 +27,7 @@ Wi-Fi Access Point
 
 ## 🧩 API Endpoint
 
-POST → /update-bin
+POST → `/update-bin`
 
 Client sends JSON:
 
@@ -41,9 +41,6 @@ Client sends JSON:
 
 `}`
 
-
----
-
 ## 🖥️ Local Dashboard
 
 Access via:
@@ -51,34 +48,19 @@ Access via:
 👉 http://192.168.4.1
 
 Dashboard displays:
+- Node ID
+- Distance (cm)
+- Fill level (%)
+- Last update time
+- Status indicator (Empty → Critical)
+- Suggested collection priority
 
-Node ID
-
-Distance (cm)
-
-Fill level (%)
-
-Last update time
-
-Status indicator (Empty → Critical)
-
-Suggested collection priority
-
-
-
----
-
-🧪 Testing the Host
-
+## 🧪 Testing the Host
 1. Power Host ESP32
-
-
 2. Connect laptop/phone to:
 
-
-
-SSID: SmartBinHost
-Password: 12345678
+`SSID: SmartBinHost`
+`Password: 12345678`
 
 3. Open browser → visit:
 
