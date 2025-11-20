@@ -21,9 +21,10 @@ Update these in the firmware:
 
 Wi-Fi Access Point
 
-`const char* ap_ssid = "SmartBinHost";`
-
-`const char* ap_password = "12345678";`
+```bash
+const char* ap_ssid = "SmartBinHost";
+const char* ap_password = "12345678";
+```
 
 ## 🧩 API Endpoint
 
