@@ -21,7 +21,7 @@ Update these in the firmware:
 
 Wi-Fi Access Point
 
-```bash
+```json
 const char* ap_ssid = "SmartBinHost";
 const char* ap_password = "12345678";
 ```
@@ -32,7 +32,7 @@ POST → `/update-bin`
 
 Client sends JSON:
 
-```bash
+```json
 {
   "node_id": 2,
   "distance": 15.7,
@@ -58,7 +58,7 @@ Dashboard displays:
 1. Power Host ESP32
 2. Connect laptop/phone to:
 
-```bash
+```json
 SSID: SmartBinHost
 Password: 12345678
 ```
