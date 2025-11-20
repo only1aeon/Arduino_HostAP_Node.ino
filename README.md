@@ -58,9 +58,10 @@ Dashboard displays:
 1. Power Host ESP32
 2. Connect laptop/phone to:
 
-`SSID: SmartBinHost`
-
-`Password: 12345678`
+```bash
+SSID: SmartBinHost
+Password: 12345678
+```
 
 3. Open browser → visit: http://192.168.4.1
 4. Power Client node(s)
