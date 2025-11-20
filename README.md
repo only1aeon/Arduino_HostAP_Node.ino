@@ -21,7 +21,7 @@ Update these in the firmware:
 
 Wi-Fi Access Point
 
-```json
+```bash
 const char* ap_ssid = "SmartBinHost";
 const char* ap_password = "12345678";
 ```
@@ -58,7 +58,7 @@ Dashboard displays:
 1. Power Host ESP32
 2. Connect laptop/phone to:
 
-```json
+```bash
 SSID: SmartBinHost
 Password: 12345678
 ```
