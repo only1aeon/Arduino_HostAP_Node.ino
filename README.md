@@ -31,15 +31,13 @@ POST → `/update-bin`
 
 Client sends JSON:
 
-`{`
-
-  `"node_id": 2,`
-
-  `"distance": 15.7,`
-
-  `"fill_level": 83`
-
-`}`
+```bash
+{
+  "node_id": 2,
+  "distance": 15.7,
+  "fill_level": 83
+}
+```
 
 ## 🖥️ Local Dashboard
 
